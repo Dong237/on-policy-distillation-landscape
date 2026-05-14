@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "On Policy Distillation Landscape"
+message: "If you use this taxonomy or tables, please cite the repository."
+type: dataset
+abstract: "A taxonomy-first research map of On-Policy Distillation for LLMs, VLMs, and MLLMs."
+authors:
+  - name: "On Policy Distillation Landscape contributors"
+repository-code: "https://github.com/your-org/on-policy-distillation-landscape"
+license: MIT
+date-released: "2026-05-11"
+keywords:
+  - on-policy distillation
+  - knowledge distillation
+  - large language models
+  - vision-language models
+  - multimodal large language models
+
