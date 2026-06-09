@@ -1,0 +1,16 @@
+title: "On-Policy Distillation Landscape"
+description: "An evidence-backed research map and taxonomy of On-Policy Distillation (OPD) for LLMs, VLMs, MLLMs, VLA systems, and agents."
+theme: jekyll-theme-minimal
+url: "https://Dong237.github.io"
+baseurl: "/on-policy-distillation-landscape"
+
+# SEO and Sitemap plugins are natively supported by GitHub Pages
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Google Search Console Verification
+# 1. Go to Google Search Console and Add Property -> URL Prefix (https://dong237.github.io/on-policy-distillation-landscape/)
+# 2. Select HTML Tag verification.
+# 3. Copy the string inside the content="" attribute and replace YOUR_VERIFICATION_STRING_HERE below.
+google_site_verification: "YOUR_VERIFICATION_STRING_HERE"
