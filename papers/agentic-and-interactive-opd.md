@@ -6,6 +6,7 @@ Agentic OPD covers multi-turn, stateful environments: code agents, browser agent
 
 - MAD-OPD / OPAD is strict: debate teachers supervise student on-policy actions or tokens with confidence-weighted JSD/RKL.
 - SOD is strict for its step-wise OPD teacher-logit term on tool/reasoning trajectories, with GRPO as an auxiliary reward objective.
+- [MultiAgent-OPD](https://arxiv.org/abs/2610.23234) uses strict sampled reverse-KL distillation for Searcher tokens generated under the shared student policy. The Leader and Answerer use outcome-based RL during the same team training.
 - OPCD is strict privileged-context self-distillation and acts as the core primitive behind several agentic variants.
 - OEL remains partial at method level because only the OPCD-style consolidation substage is strict.
 - VLA-OPD is strict action-token OPD for robotic/VLA trajectories.
